@@ -1,0 +1,170 @@
+* {
+  color: #575151;
+}
+
+body {
+  background-color: rgb(236, 227, 227);
+}
+
+.container {
+  display: grid;
+  grid-auto-rows: minmax(50px, auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "hd hd hd hd"
+    "mn mn mn sd"
+    "mn mn mn sd"
+    "mn mn mn sd"
+    "ft ft ft ft";
+}
+
+.posts {
+  margin: 45px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 45px;
+}
+
+.post {
+  background-color: white;
+  border: 1px solid #575151;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px #575151;
+}
+
+.post h2 {
+  text-align: center;
+}
+
+.post img {
+  border-radius: 7px;
+  display: block;
+  margin: auto;
+}
+
+.post figcaption {
+  margin-left: 35px;
+}
+
+.post article {
+  margin: 25px;
+}
+
+.post a {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.post a:hover {
+  font-weight: bold;
+}
+
+header {
+  grid-area: hd;
+  background-color: #575151;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  margin: 20px 80px;
+  color: #e7b3b3;
+}
+
+header .search {
+  margin-right: 55px;
+  margin-top: 35px;
+  height: 30px;
+}
+
+header .search input {
+  line-height: 22px;
+  padding: 5px;
+}
+
+header .search button {
+  padding: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+header button:hover {
+  background-color: #e7b3b3;
+  cursor: pointer;
+}
+
+main {
+  grid-area: mn;
+}
+aside {
+  grid-area: sd;
+  background-color: #feb062;
+}
+
+aside .cite {
+  margin: 10px;
+}
+
+aside h3 {
+  margin-left: 40px;
+  margin-top: 50px;
+  box-shadow: 0 1px 0 #575151, 0 2px 0 #e7b3b3;
+}
+
+aside button {
+  font-size: 15px;
+  display: block;
+  margin: 50px auto;
+  padding: 10px;
+  border: 1px solid #575151;
+  transition: all 200ms ease-in-out;
+}
+
+aside button:hover {
+  background-color: #feb062;
+  cursor: pointer;
+}
+
+aside input {
+  display: block;
+  margin: auto;
+  line-height: 22px;
+  padding: 5px;
+}
+
+aside #newsletter-heading {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+footer {
+  color: #e7b3b3;
+  grid-area: ft;
+  background-color: #575151;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  color: #e7b3b3;
+  margin: 35px;
+}
+
+footer p strong {
+  color: #e7b3b3;
+}
+
+footer a {
+  color: #e7b3b3;
+  transition: all 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: #feb062;
+}
