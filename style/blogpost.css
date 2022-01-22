@@ -44,7 +44,7 @@
 }
 
 #author {
-  height: 440px;
+  height: 530px;
 }
 
 #author h2 {
@@ -65,4 +65,32 @@
 
 #author ul .spec {
   font-weight: bold;
+}
+
+#author ul li a {
+  display: inline;
+  color: #575151;
+}
+
+#author ul li a:hover {
+  color: #feb062;
+}
+
+#author .social-media {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+#author .social-media a {
+  font-size: 35px;
+  padding: 10px 13px;
+  border-radius: 50%;
+  background-color: #756c6c;
+  color: #e7b3b3;
+  transition: all 300ms ease-in-out;
+}
+
+#author .social-media a:hover {
+  color: #feb062;
 }
