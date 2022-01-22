@@ -21,6 +21,7 @@ aside button {
   color: rgb(236, 227, 227);
   background-color: #575151;
   font-size: 15px;
+  font-weight: bold;
   display: block;
   margin: 50px auto;
   padding: 10px;
