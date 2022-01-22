@@ -1,0 +1,68 @@
+#meow-post h2 {
+  font-size: 30px;
+}
+
+#meow-post figcaption {
+  margin-left: 60px;
+}
+
+#meow-post h3 {
+  margin-top: 30px;
+  margin-left: 28px;
+  text-decoration: underline;
+  font-size: 28px;
+  font-family: "Dancing Script", cursive, Arial, Helvetica, sans-serif;
+}
+
+#meow-post .post-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+#meow-post .post-buttons button {
+  background-color: #575151;
+  padding: 12px;
+  border: 1px solid #575151;
+  border-radius: 7px;
+  transition: all 300ms ease-in-out;
+}
+
+#meow-post .post-buttons button:hover {
+  cursor: pointer;
+}
+
+#meow-post .post-buttons button a {
+  text-decoration: none;
+  color: rgb(236, 227, 227);
+  margin-bottom: 0;
+}
+
+#meow-post .post-buttons button a:hover {
+  font-weight: normal;
+  color: #e7b3b3;
+}
+
+#author {
+  height: 440px;
+}
+
+#author h2 {
+  text-align: left;
+  margin-left: 45px;
+}
+
+#author img {
+  padding: 3px;
+  border: 5px solid #575151;
+}
+
+#author ul {
+  list-style: none;
+  margin: 10px;
+  font-size: 18px;
+}
+
+#author ul .spec {
+  font-weight: bold;
+}

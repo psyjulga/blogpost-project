@@ -1,0 +1,24 @@
+footer {
+  grid-area: ft;
+  color: #e7b3b3;
+  background-color: #575151;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 35px;
+}
+
+footer a {
+  color: #e7b3b3;
+  transition: all 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: #feb062;
+}
+
+footer .year {
+  font-weight: bold;
+}

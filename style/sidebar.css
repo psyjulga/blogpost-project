@@ -1,0 +1,47 @@
+aside {
+  grid-area: sd;
+  background-color: #feb062;
+}
+
+aside .cite {
+  margin: 10px;
+}
+
+aside .cite p {
+  font-style: italic;
+}
+
+aside h3 {
+  margin-left: 40px;
+  margin-top: 50px;
+  box-shadow: 0 1px 0 #575151, 0 2px 0 #e7b3b3;
+}
+
+aside button {
+  color: rgb(236, 227, 227);
+  background-color: #575151;
+  font-size: 15px;
+  display: block;
+  margin: 50px auto;
+  padding: 10px;
+  border: 1px solid #575151;
+  transition: all 300ms ease-in-out;
+}
+
+aside button:hover {
+  color: #575151;
+  background-color: #feb062;
+  cursor: pointer;
+}
+
+aside #newsletter-heading {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+aside input {
+  display: block;
+  margin: 25px auto;
+  line-height: 22px;
+  padding: 5px;
+}
