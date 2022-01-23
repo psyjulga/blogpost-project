@@ -76,6 +76,7 @@ main .posts .post a:hover {
 
 @media (max-width: 600px) {
   .container {
+    width: 100%;
     grid-template-columns: 100%;
     grid-template-areas:
       "hd"
@@ -85,13 +86,13 @@ main .posts .post a:hover {
   }
   main .posts {
     grid-auto-rows: minmax(50px, auto);
-    grid-template-columns: auto;
-    grid-gap: 15px;
-    margin: 15px;
+    grid-template-columns: 90%;
+    grid-gap: 10px;
+    margin: 10px;
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 1160px) {
   .container {
     grid-template-columns: 100%;
     grid-template-areas:
@@ -102,7 +103,7 @@ main .posts .post a:hover {
   }
   main .posts {
     grid-auto-rows: minmax(50px, auto);
-    grid-template-columns: auto;
+    grid-template-columns: 90%;
     grid-gap: 15px;
     margin: 20px 60px;
   }
