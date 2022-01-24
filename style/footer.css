@@ -22,3 +22,9 @@ footer a:hover {
 footer .year {
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  footer .year {
+    display: none;
+  }
+}

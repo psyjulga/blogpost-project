@@ -57,10 +57,13 @@ header .search button:hover {
     flex-direction: column;
   }
   header h1 {
-    margin: 15px auto;
+    margin: 10px auto;
   }
   header nav {
-    margin-left: 70px;
+    margin: auto;
+  }
+  header nav ul {
+    padding-left: 0;
   }
   header .search {
     display: block;
@@ -68,7 +71,13 @@ header .search button:hover {
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 1160px) {
+  header h1 {
+    font-size: 45px;
+  }
+  header nav ul {
+    padding-left: 0;
+  }
   header .search button {
     display: none;
   }

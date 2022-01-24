@@ -46,3 +46,22 @@ aside input {
   line-height: 22px;
   padding: 5px;
 }
+
+@media (min-width: 601px) and (max-width: 1160px) {
+  aside .cites {
+    display: flex;
+    margin-right: 10px;
+  }
+  aside button {
+    width: 60%;
+  }
+  aside .newsletter {
+    display: flex;
+  }
+  aside #newsletter-heading {
+    margin-top: 20px;
+  }
+  aside input {
+    width: 40%;
+  }
+}
